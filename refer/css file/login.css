@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 219, 199)    ;
+}
+.header{
+    display: flex;
+    gap: 280px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 8px 1px 8px black;;
+    border-radius: 0px 0px 8px 8px;
+
+    a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+}
+
+.signup{
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 35px;
+    margin-left: 70px;
+    border-radius: 6px;
+    color: rgb(240, 217, 13);
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.login{
+    width: 90px;
+    background-color: rgb(240, 217, 13);
+    border: none;
+    border-radius: 6px;
+    margin-top: -10px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.uli{
+    display: flex;
+    gap: 80px;
+}
+
+        .login-container {
+            padding: 20px;
+            background:linear-gradient(to right, rgb(240, 217, 13), rgb(58, 56, 56));
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 510px;
+            margin-top: 100px;
+            width: 350px;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color:#000000;
+            font-size: 2.1rem;
+        }
+        .login-container input {
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(to left, rgb(240, 217, 13), rgb(58, 56, 56));
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            a{
+                color: #000000;
+                text-decoration: none;
+            }
+        }
+        .login-container button:hover {
+            background:linear-gradient(to right, rgb(240, 217, 13), rgb(58, 56, 56));
+            transition: 1s ease;
+        }
+        .forget{
+            margin-top: 12px;
+        }
+
+        .wrapper{
+            font-size: 1rem;
+            margin-top: 12px;
+            a{
+                font-size: 1.26rem;
+                padding: 6px;
+                
+            }
+        }
+
+        .media-login-container {
+            padding: 20px;
+            background:linear-gradient(to right, rgb(240, 217, 13), rgb(58, 56, 56));
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+            margin-left: 40px;
+            margin-top: 100px;
+            width: 310px;
+            height: 380px;
+            text-align: center;
+            display: none;
+        }
+        .media-login-container h2 {
+            margin-bottom: 20px;
+            color:#000000;
+            font-size: 2.1rem;
+        }
+        .media-login-container input {
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .media-login-container button {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(to left, rgb(240, 217, 13), rgb(58, 56, 56));
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            a{
+                color: #000000;
+                text-decoration: none;
+            }
+        }
+        .media-login-container button:hover {
+            background:linear-gradient(to right, rgb(240, 217, 13), rgb(58, 56, 56));
+            transition: 1s ease;
+        }
+
+        .wrapper{
+            font-size: 1rem;
+            a{
+                font-size: 1.26rem;
+                padding: 6px;
+            }
+        }
+
+        @media (max-width:600px) {
+            .header{
+                display: none;
+            }
+
+            .uli{
+                display: none;
+            }
+            
+            .login-container{
+              display: none;
+            }
+          
+            .media-login-container{
+                display: block;
+            }
+
+        }

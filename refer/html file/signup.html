@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css file/signup.css">
+</head>
+<body>
+
+    
+
+        <div class="logos">
+        <img src="" alt="milky-pay">
+      </div>
+
+      <div class="mist">
+          <form id="signupForm" class="">
+        <h1>Get Started</h1>
+
+        <h5>Full Name</h5>
+        <input type="text" name="name" required autocomplete="on" id="full-name"> <br>
+
+        <div>
+            <h5>Username<sup style="color: red;">*</sup></h5>
+            <input type="text" required autocomplete="on" id="username">
+        </div>
+        <div>
+            <h5>Token<sup style="color: red;">*</sup></h5>
+            <input type="text" required autocomplete="on" id="token">
+            <p style="color: red;" id="tokenAlert">Token not found</p>
+        </div>
+        <div>
+            <h5>Email<sup style="color: red;">*</sup></h5>
+            <input type="text" required autocomplete="on" id="signup-email">
+        </div>
+        <div>
+            <h5>Password</h5>
+            <input type="password" required autocomplete="on" id="password">
+             <p style="color: rgb(77, 7, 7); margin-top: -19px; margin-left: 25px; margin-bottom: 21px;" id="signupAlert">please don't lose your password.</p>
+        </div>
+        <div>
+            <h5>Confirm Password</h5>
+            <input type="password" required autocomplete="on" id="confirm-password">
+        </div>
+        </form>
+
+        <button class="tuff" id="joinnow" onclick="addEventListener(window.location.href = './code.html')">Join Now</button>
+
+        <p class="log">Already have an account? <a href="./login.html">Log in</a></p>
+
+        <script src="../script/main.js"></script>
+      </div>
+
+      <div class="media">
+        <div class="media-mist">
+          <form id="signupForm" class="">
+        <h1>Get Started</h1>
+
+        
+        <input type="text" name="name" required autocomplete="on" id="full-name" placeholder="Enter your Full Name"> <br>
+
+        <div>
+            
+            <input type="text" required autocomplete="on" id="username" placeholder="Create Username">
+        </div>
+        <div>
+           
+            <input type="text" required autocomplete="on" id="token" placeholder=" Enter your Token">
+            <p style="color: red;" id="tokenAlert">Token not found</p>
+        </div>
+        <div>
+            
+            <input type="text" required autocomplete="on" id="signup-email" placeholder="Enter your Email">
+        </div>
+        <div>
+         
+            <input type="password" required autocomplete="on" id="password" placeholder="Create password">
+            <p style="color: rgb(77, 7, 7); margin-top: -19px; margin-left: 25px; margin-bottom: 21px;" id="signupAlert">please don't lose your password</p>
+        </div>
+        <div>
+        
+            <input type="password" required autocomplete="on" id="confirm-password" placeholder="Confirm password">
+        </div>
+        </form>
+
+        <button class="tuff-media" id="joinnow" onclick="addEventListener(window.location.href = './code.html')">Join Now</button>
+
+        <p class="log">Already have an account? <a href="./login.html">Log in</a></p>
+
+        <script src="../script/main.js"></script>
+      </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(230, 219, 199);
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    font-size: 2.2rem;
+    color: rgb(226, 0, 0);
+}
+
+#tokenAlert{
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-bottom: 17px;
+    /* display: none; */
+    font-size: 14px;
+}
+
+.mist{
+    margin-left: 800px;
+    background-color: rgb(178, 178, 187);
+    width: 450px;
+    border-radius: 9px;
+
+    input{
+        width: 380px;
+        height: 35px;
+        margin-left: 20px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+    }
+
+    h5{
+        margin-left: 20px;
+    }
+}
+
+.media-mist{
+    margin-left: 50px;
+    background-color: rgb(178, 178, 187);
+    width: 300px;
+    border-radius: 9px;
+    display: none;
+
+    input{
+        width: 250px;
+        height: 35px;
+        margin-left: 20px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+    }
+
+    h5{
+        margin-left: 20px;
+    }
+}
+
+.tuff{
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(0, 26, 255), rgb(255, 255, 255));
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.tuff-media{
+    cursor: pointer;
+    background-color: navy;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.log{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+.log a{
+    color: #001988;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+.log a:hover {
+    text-decoration: underline;
+  }
+
+@media (max-width:600px) {
+  .media-mist{
+    display: block;
+    margin-top: 30px;
+  }
+     .mist{
+        display: none;
+     }
+
+    .logos{
+        display: none;
+    }
+}

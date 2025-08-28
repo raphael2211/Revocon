@@ -1,0 +1,52 @@
+.footer{
+    margin-left: 30px;
+    h2{
+        margin-bottom: 20px;
+    }
+}
+
+.comb{
+    display: flex;
+    gap: 170px;
+}
+.dim{
+    display: flex;
+    gap: 20px;
+}
+
+.cash{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.no1 p{
+    margin-left: 40px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.com{
+    display: flex;
+    gap: 170px;
+}
+
+
+@media (max-width: 600px) {
+   .header{
+    display: none;
+   } 
+
+   .people{
+    margin-left: -200px;
+    display: block;
+   }
+
+   .balance{
+    font-size: 2rem;
+
+    p{
+        width: 20px;
+    }
+   }
+}
